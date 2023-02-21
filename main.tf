@@ -1,7 +1,7 @@
 
 module "resource-naming" {
   source  = "app.terraform.io/Farrellsoft/resource-naming/azure"
-  version = "0.0.3"
+  version = "0.0.6"
   
   application         = var.application
   environment         = var.environment

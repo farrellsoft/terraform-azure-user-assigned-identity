@@ -14,10 +14,7 @@ variable application {
 
 variable environment {
   type = string
-  validation {
-    condition     = length(var.environment) == 3
-    error_message = "${var.environment} must be three (3) characters."
-  }
+  description = "The environment (dev, test, prod, etc.)"
 }
 
 variable instance_number {
